@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Actions</key>
+	<array>
+		<dict>
+			<key>After</key>
+			<string>paste-result</string>
+			<key>Image File</key>
+			<string>EzComment-1.png</string>
+			<key>Script Interpreter</key>
+			<string>/usr/bin/php</string>
+			<key>Shell Script File</key>
+			<string>EzComment-1.php</string>
+			<key>Title</key>
+			<string>//</string>
+			<key>Requirements</key>
+			<array>
+				<string>option-comment=1</string>
+			</array>
+		</dict>
+		<dict>
+			<key>After</key>
+			<string>paste-result</string>
+			<key>Image File</key>
+			<string>EzComment-2.png</string>
+			<key>Script Interpreter</key>
+			<string>/usr/bin/php</string>
+			<key>Shell Script File</key>
+			<string>EzComment-2.php</string>
+			<key>Title</key>
+			<string>Square Brackets</string>
+			<key>Requirements</key>
+			<array>
+				<string>option-comment=2</string>
+			</array>
+		</dict>
+	</array>
+	<key>Extension Description</key>
+	<string>Comment text with // or /* */</string>
+	<key>Extension Identifier</key>
+	<string>com.pilotmoon.popclip.extension.brackets</string>
+	<key>Extension Name</key>
+	<string>EzComment</string>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Option Identifier</key>
+			<string>EzComment1</string>
+			<key>Option Label</key>
+			<string>Comment//</string>
+			<key>Option Type</key>
+			<string>boolean</string>
+		</dict>
+		<dict>
+			<key>Option Identifier</key>
+			<string>EzComment2</string>
+			<key>Option Label</key>
+			<string>EzComment/**/</string>
+			<key>Option Type</key>
+			<string>boolean</string>
+		</dict>
+	</array>
+	<key>Required Software Version</key>
+	<integer>1</integer>
+</dict>
+</plist>
